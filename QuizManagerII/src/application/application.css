@@ -1,0 +1,99 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.main-bg{
+	-fx-background-color: #FFFFFF;
+}
+
+.primary-color{
+	-fx-text-fill: #0D47A1;
+}
+
+.secondary-color{
+	-fx-text-fill: #FF5722;
+}
+
+.headline{
+	-fx-background-color: #F7F7F7;
+	-fx-padding: 15;
+}
+
+.headline-text{
+	-fx-font: 24px "Serif";
+}
+
+.headline-text-color{
+	-fx-text-fill: #00838F;
+}
+
+.primary-button{
+	-fx-font: 18px "Serif";
+	-fx-background-color: #1565C0;
+	-fx-padding: 15;
+	-fx-text-fill: #FFFFFF;
+	-fx-border-radius:5;
+	-fx-border-width:1;
+	-fx-border-color:#0D47A1;
+	-fx-background-radius:5;
+	-fx-border-insets:0;
+}
+
+.starter-button{
+	-fx-background-color: none;
+	-fx-background-radius:12;
+	-fx-border-radius:12;
+	-fx-font: 22px "Serif";
+	-fx-text-fill: #222222;
+}
+
+.starter-button:hover{
+	-fx-background-color: #f9f9f9;
+	-fx-text-fill: #C62828;
+}
+
+.primary-button:hover{
+	-fx-background-color: #0D47A1;
+}
+
+.secondary-button{
+	-fx-font: 18px "Serif";
+	-fx-background-color: #C62828;
+	-fx-padding: 15;
+	-fx-text-fill: #FFFFFF;
+	-fx-border-radius:5;
+	-fx-border-width:1;
+	-fx-border-color:#B71C1C;
+	-fx-background-radius:5;
+	-fx-border-insets:0;
+}
+
+.secondary-button:hover{
+	-fx-background-color: #B71C1C;
+}
+
+.bonjour-text{
+	-fx-font: 18px "Serif";
+	-fx-font-weight: bold;
+	-fx-text-fill: #757575;
+}
+
+.login-box{
+	-fx-border-width:1px;
+	-fx-border-color:#EEEEEE;
+	-fx-border-radius:8px;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: #FFFFFF;
+}
+
+.scroll-pane {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.scroll-pane:focused {
+    -fx-background-insets: 0;
+}
+
+.scroll-pane .corner {
+    -fx-background-insets: 0;
+}
